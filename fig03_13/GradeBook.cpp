@@ -5,17 +5,17 @@ using namespace std;
 
 GradeBook::GradeBook(string name)
 {
-		setCourseName(name);
+	setCourseName(name);
 }
 void GradeBook::setCourseName(string name)
 {
-		courseName = name;
+	courseName = name;
 }
 string GradeBook::getCourseName()
 {
-		return courseName;
+	return courseName;
 }
 void GradeBook::displayMessage()
 {
-		cout << "welcome to the grade book for\n" << getCourseName() << "!" << endl;
+	cout << "welcome to the grade book for\n" << getCourseName() << "!" << endl;
 }
