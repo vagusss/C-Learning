@@ -13,7 +13,7 @@ int main()
 	
 	cout << "enter miles driven(-1 to quit): ";
 	cin >> miles;
-
+	cout << fixed;//i don't known why did so.
 	while (miles != -1)
 	{
 		cout << "enter gallons used: ";
